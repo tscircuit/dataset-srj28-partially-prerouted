@@ -1,0 +1,530 @@
+{
+  "dataset": "dataset-srj28-partially-prerouted",
+  "source": {
+    "dataset": "@tscircuit/autorouting-dataset-01",
+    "revision": "52c45500b04d0380aa2a1be9b4c6f32d9b138553"
+  },
+  "solver": {
+    "package": "@tscircuit/capacity-autorouter",
+    "version": "0.0.764",
+    "pipeline": "AutoroutingPipelineSolver7_MultiGraph"
+  },
+  "traceSelection": {
+    "algorithm": "FNV-1a seeded Mulberry32 Fisher-Yates shuffle",
+    "seed": "dataset-srj28-partially-prerouted-v1",
+    "removalFraction": 0.5,
+    "rounding": "floor"
+  },
+  "circuits": {
+    "circuit001": {
+      "sourceConnectionCount": 4,
+      "solvedTraceCount": 6,
+      "removedTraceCount": 3,
+      "retainedTraceCount": 3
+    },
+    "circuit002": {
+      "sourceConnectionCount": 18,
+      "solvedTraceCount": 40,
+      "removedTraceCount": 20,
+      "retainedTraceCount": 20
+    },
+    "circuit003": {
+      "sourceConnectionCount": 12,
+      "solvedTraceCount": 19,
+      "removedTraceCount": 9,
+      "retainedTraceCount": 10
+    },
+    "circuit004": {
+      "sourceConnectionCount": 12,
+      "solvedTraceCount": 19,
+      "removedTraceCount": 9,
+      "retainedTraceCount": 10
+    },
+    "circuit005": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 7,
+      "removedTraceCount": 3,
+      "retainedTraceCount": 4
+    },
+    "circuit006": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 9,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 5
+    },
+    "circuit007": {
+      "sourceConnectionCount": 6,
+      "solvedTraceCount": 7,
+      "removedTraceCount": 3,
+      "retainedTraceCount": 4
+    },
+    "circuit010": {
+      "sourceConnectionCount": 9,
+      "solvedTraceCount": 25,
+      "removedTraceCount": 12,
+      "retainedTraceCount": 13
+    },
+    "circuit011": {
+      "sourceConnectionCount": 4,
+      "solvedTraceCount": 14,
+      "removedTraceCount": 7,
+      "retainedTraceCount": 7
+    },
+    "circuit012": {
+      "sourceConnectionCount": 6,
+      "solvedTraceCount": 10,
+      "removedTraceCount": 5,
+      "retainedTraceCount": 5
+    },
+    "circuit013": {
+      "sourceConnectionCount": 4,
+      "solvedTraceCount": 8,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 4
+    },
+    "circuit014": {
+      "sourceConnectionCount": 8,
+      "solvedTraceCount": 8,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 4
+    },
+    "circuit015": {
+      "sourceConnectionCount": 9,
+      "solvedTraceCount": 19,
+      "removedTraceCount": 9,
+      "retainedTraceCount": 10
+    },
+    "circuit018": {
+      "sourceConnectionCount": 8,
+      "solvedTraceCount": 5,
+      "removedTraceCount": 2,
+      "retainedTraceCount": 3
+    },
+    "circuit019": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 5,
+      "removedTraceCount": 2,
+      "retainedTraceCount": 3
+    },
+    "circuit020": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 3,
+      "removedTraceCount": 1,
+      "retainedTraceCount": 2
+    },
+    "circuit021": {
+      "sourceConnectionCount": 11,
+      "solvedTraceCount": 11,
+      "removedTraceCount": 5,
+      "retainedTraceCount": 6
+    },
+    "circuit100": {
+      "sourceConnectionCount": 17,
+      "solvedTraceCount": 36,
+      "removedTraceCount": 18,
+      "retainedTraceCount": 18
+    },
+    "circuit101": {
+      "sourceConnectionCount": 19,
+      "solvedTraceCount": 36,
+      "removedTraceCount": 18,
+      "retainedTraceCount": 18
+    },
+    "circuit102": {
+      "sourceConnectionCount": 20,
+      "solvedTraceCount": 36,
+      "removedTraceCount": 18,
+      "retainedTraceCount": 18
+    },
+    "circuit103": {
+      "sourceConnectionCount": 24,
+      "solvedTraceCount": 49,
+      "removedTraceCount": 24,
+      "retainedTraceCount": 25
+    },
+    "circuit104": {
+      "sourceConnectionCount": 13,
+      "solvedTraceCount": 29,
+      "removedTraceCount": 14,
+      "retainedTraceCount": 15
+    },
+    "circuit105": {
+      "sourceConnectionCount": 24,
+      "solvedTraceCount": 47,
+      "removedTraceCount": 23,
+      "retainedTraceCount": 24
+    },
+    "circuit106": {
+      "sourceConnectionCount": 14,
+      "solvedTraceCount": 33,
+      "removedTraceCount": 16,
+      "retainedTraceCount": 17
+    },
+    "circuit107": {
+      "sourceConnectionCount": 10,
+      "solvedTraceCount": 19,
+      "removedTraceCount": 9,
+      "retainedTraceCount": 10
+    },
+    "circuit108": {
+      "sourceConnectionCount": 16,
+      "solvedTraceCount": 33,
+      "removedTraceCount": 16,
+      "retainedTraceCount": 17
+    },
+    "circuit109": {
+      "sourceConnectionCount": 26,
+      "solvedTraceCount": 62,
+      "removedTraceCount": 31,
+      "retainedTraceCount": 31
+    },
+    "circuit110": {
+      "sourceConnectionCount": 7,
+      "solvedTraceCount": 15,
+      "removedTraceCount": 7,
+      "retainedTraceCount": 8
+    },
+    "circuit111": {
+      "sourceConnectionCount": 16,
+      "solvedTraceCount": 39,
+      "removedTraceCount": 19,
+      "retainedTraceCount": 20
+    },
+    "circuit112": {
+      "sourceConnectionCount": 9,
+      "solvedTraceCount": 20,
+      "removedTraceCount": 10,
+      "retainedTraceCount": 10
+    },
+    "circuit113": {
+      "sourceConnectionCount": 13,
+      "solvedTraceCount": 28,
+      "removedTraceCount": 14,
+      "retainedTraceCount": 14
+    },
+    "circuit114": {
+      "sourceConnectionCount": 34,
+      "solvedTraceCount": 65,
+      "removedTraceCount": 32,
+      "retainedTraceCount": 33
+    },
+    "circuit115": {
+      "sourceConnectionCount": 3,
+      "solvedTraceCount": 7,
+      "removedTraceCount": 3,
+      "retainedTraceCount": 4
+    },
+    "circuit116": {
+      "sourceConnectionCount": 8,
+      "solvedTraceCount": 16,
+      "removedTraceCount": 8,
+      "retainedTraceCount": 8
+    },
+    "circuit118": {
+      "sourceConnectionCount": 18,
+      "solvedTraceCount": 34,
+      "removedTraceCount": 17,
+      "retainedTraceCount": 17
+    },
+    "circuit119": {
+      "sourceConnectionCount": 2,
+      "solvedTraceCount": 4,
+      "removedTraceCount": 2,
+      "retainedTraceCount": 2
+    },
+    "circuit120": {
+      "sourceConnectionCount": 31,
+      "solvedTraceCount": 70,
+      "removedTraceCount": 35,
+      "retainedTraceCount": 35
+    },
+    "circuit121": {
+      "sourceConnectionCount": 10,
+      "solvedTraceCount": 22,
+      "removedTraceCount": 11,
+      "retainedTraceCount": 11
+    },
+    "circuit123": {
+      "sourceConnectionCount": 22,
+      "solvedTraceCount": 41,
+      "removedTraceCount": 20,
+      "retainedTraceCount": 21
+    },
+    "circuit124": {
+      "sourceConnectionCount": 10,
+      "solvedTraceCount": 20,
+      "removedTraceCount": 10,
+      "retainedTraceCount": 10
+    },
+    "circuit125": {
+      "sourceConnectionCount": 17,
+      "solvedTraceCount": 36,
+      "removedTraceCount": 18,
+      "retainedTraceCount": 18
+    },
+    "circuit126": {
+      "sourceConnectionCount": 7,
+      "solvedTraceCount": 9,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 5
+    },
+    "circuit127": {
+      "sourceConnectionCount": 3,
+      "solvedTraceCount": 7,
+      "removedTraceCount": 3,
+      "retainedTraceCount": 4
+    },
+    "circuit128": {
+      "sourceConnectionCount": 15,
+      "solvedTraceCount": 34,
+      "removedTraceCount": 17,
+      "retainedTraceCount": 17
+    },
+    "circuit129": {
+      "sourceConnectionCount": 4,
+      "solvedTraceCount": 9,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 5
+    },
+    "circuit131": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 11,
+      "removedTraceCount": 5,
+      "retainedTraceCount": 6
+    },
+    "circuit132": {
+      "sourceConnectionCount": 7,
+      "solvedTraceCount": 12,
+      "removedTraceCount": 6,
+      "retainedTraceCount": 6
+    },
+    "circuit133": {
+      "sourceConnectionCount": 7,
+      "solvedTraceCount": 11,
+      "removedTraceCount": 5,
+      "retainedTraceCount": 6
+    },
+    "circuit134": {
+      "sourceConnectionCount": 27,
+      "solvedTraceCount": 61,
+      "removedTraceCount": 30,
+      "retainedTraceCount": 31
+    },
+    "circuit135": {
+      "sourceConnectionCount": 10,
+      "solvedTraceCount": 20,
+      "removedTraceCount": 10,
+      "retainedTraceCount": 10
+    },
+    "circuit136": {
+      "sourceConnectionCount": 7,
+      "solvedTraceCount": 13,
+      "removedTraceCount": 6,
+      "retainedTraceCount": 7
+    },
+    "circuit137": {
+      "sourceConnectionCount": 22,
+      "solvedTraceCount": 43,
+      "removedTraceCount": 21,
+      "retainedTraceCount": 22
+    },
+    "circuit138": {
+      "sourceConnectionCount": 21,
+      "solvedTraceCount": 49,
+      "removedTraceCount": 24,
+      "retainedTraceCount": 25
+    },
+    "circuit139": {
+      "sourceConnectionCount": 28,
+      "solvedTraceCount": 51,
+      "removedTraceCount": 25,
+      "retainedTraceCount": 26
+    },
+    "circuit140": {
+      "sourceConnectionCount": 27,
+      "solvedTraceCount": 48,
+      "removedTraceCount": 24,
+      "retainedTraceCount": 24
+    },
+    "circuit141": {
+      "sourceConnectionCount": 22,
+      "solvedTraceCount": 46,
+      "removedTraceCount": 23,
+      "retainedTraceCount": 23
+    },
+    "circuit142": {
+      "sourceConnectionCount": 22,
+      "solvedTraceCount": 41,
+      "removedTraceCount": 20,
+      "retainedTraceCount": 21
+    },
+    "circuit143": {
+      "sourceConnectionCount": 30,
+      "solvedTraceCount": 58,
+      "removedTraceCount": 29,
+      "retainedTraceCount": 29
+    },
+    "circuit144": {
+      "sourceConnectionCount": 14,
+      "solvedTraceCount": 33,
+      "removedTraceCount": 16,
+      "retainedTraceCount": 17
+    },
+    "circuit145": {
+      "sourceConnectionCount": 20,
+      "solvedTraceCount": 41,
+      "removedTraceCount": 20,
+      "retainedTraceCount": 21
+    },
+    "circuit146": {
+      "sourceConnectionCount": 27,
+      "solvedTraceCount": 51,
+      "removedTraceCount": 25,
+      "retainedTraceCount": 26
+    },
+    "circuit147": {
+      "sourceConnectionCount": 4,
+      "solvedTraceCount": 4,
+      "removedTraceCount": 2,
+      "retainedTraceCount": 2
+    },
+    "circuit148": {
+      "sourceConnectionCount": 11,
+      "solvedTraceCount": 20,
+      "removedTraceCount": 10,
+      "retainedTraceCount": 10
+    },
+    "circuit149": {
+      "sourceConnectionCount": 17,
+      "solvedTraceCount": 34,
+      "removedTraceCount": 17,
+      "retainedTraceCount": 17
+    },
+    "circuit150": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 9,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 5
+    },
+    "circuit151": {
+      "sourceConnectionCount": 34,
+      "solvedTraceCount": 69,
+      "removedTraceCount": 34,
+      "retainedTraceCount": 35
+    },
+    "circuit152": {
+      "sourceConnectionCount": 31,
+      "solvedTraceCount": 60,
+      "removedTraceCount": 30,
+      "retainedTraceCount": 30
+    },
+    "circuit155": {
+      "sourceConnectionCount": 20,
+      "solvedTraceCount": 40,
+      "removedTraceCount": 20,
+      "retainedTraceCount": 20
+    },
+    "circuit156": {
+      "sourceConnectionCount": 29,
+      "solvedTraceCount": 58,
+      "removedTraceCount": 29,
+      "retainedTraceCount": 29
+    },
+    "circuit157": {
+      "sourceConnectionCount": 10,
+      "solvedTraceCount": 21,
+      "removedTraceCount": 10,
+      "retainedTraceCount": 11
+    },
+    "circuit158": {
+      "sourceConnectionCount": 20,
+      "solvedTraceCount": 39,
+      "removedTraceCount": 19,
+      "retainedTraceCount": 20
+    },
+    "circuit162": {
+      "sourceConnectionCount": 11,
+      "solvedTraceCount": 22,
+      "removedTraceCount": 11,
+      "retainedTraceCount": 11
+    },
+    "circuit164": {
+      "sourceConnectionCount": 26,
+      "solvedTraceCount": 55,
+      "removedTraceCount": 27,
+      "retainedTraceCount": 28
+    },
+    "circuit165": {
+      "sourceConnectionCount": 3,
+      "solvedTraceCount": 7,
+      "removedTraceCount": 3,
+      "retainedTraceCount": 4
+    },
+    "circuit168": {
+      "sourceConnectionCount": 6,
+      "solvedTraceCount": 8,
+      "removedTraceCount": 4,
+      "retainedTraceCount": 4
+    },
+    "circuit172": {
+      "sourceConnectionCount": 6,
+      "solvedTraceCount": 11,
+      "removedTraceCount": 5,
+      "retainedTraceCount": 6
+    },
+    "circuit173": {
+      "sourceConnectionCount": 32,
+      "solvedTraceCount": 67,
+      "removedTraceCount": 33,
+      "retainedTraceCount": 34
+    },
+    "circuit174": {
+      "sourceConnectionCount": 5,
+      "solvedTraceCount": 10,
+      "removedTraceCount": 5,
+      "retainedTraceCount": 5
+    },
+    "circuit175": {
+      "sourceConnectionCount": 13,
+      "solvedTraceCount": 23,
+      "removedTraceCount": 11,
+      "retainedTraceCount": 12
+    },
+    "circuit176": {
+      "sourceConnectionCount": 19,
+      "solvedTraceCount": 36,
+      "removedTraceCount": 18,
+      "retainedTraceCount": 18
+    },
+    "circuit177": {
+      "sourceConnectionCount": 6,
+      "solvedTraceCount": 12,
+      "removedTraceCount": 6,
+      "retainedTraceCount": 6
+    },
+    "circuit178": {
+      "sourceConnectionCount": 27,
+      "solvedTraceCount": 55,
+      "removedTraceCount": 27,
+      "retainedTraceCount": 28
+    },
+    "circuit179": {
+      "sourceConnectionCount": 16,
+      "solvedTraceCount": 30,
+      "removedTraceCount": 15,
+      "retainedTraceCount": 15
+    },
+    "circuit180": {
+      "sourceConnectionCount": 7,
+      "solvedTraceCount": 15,
+      "removedTraceCount": 7,
+      "retainedTraceCount": 8
+    },
+    "circuit181": {
+      "sourceConnectionCount": 30,
+      "solvedTraceCount": 61,
+      "removedTraceCount": 30,
+      "retainedTraceCount": 31
+    }
+  }
+}
