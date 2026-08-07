@@ -1,0 +1,41 @@
+{
+  "name": "@tscircuit/dataset-srj28-partially-prerouted",
+  "version": "0.0.1",
+  "description": "Dataset01 circuits solved by Pipeline 7 with 50% of traces deterministically removed",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": "./index.js",
+  "files": [
+    "circuits",
+    "index.js",
+    "index.d.ts",
+    "manifest.json",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun run generate",
+    "check": "bun run format:check && bun run typecheck && bun run validate && bun test",
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "generate": "bun scripts/generate-dataset.ts && biome format --write circuits index.js index.d.ts manifest.json",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit",
+    "validate": "bun scripts/validate.ts"
+  },
+  "keywords": [
+    "tscircuit",
+    "pcb",
+    "autorouter",
+    "partially-routed",
+    "simple-route-json"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.4",
+    "@tscircuit/autorouting-dataset-01": "git+https://github.com/tscircuit/autorouting-dataset-01.git#52c45500b04d0380aa2a1be9b4c6f32d9b138553",
+    "@tscircuit/capacity-autorouter": "0.0.764",
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
+  }
+}
