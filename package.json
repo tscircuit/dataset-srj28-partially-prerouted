@@ -16,10 +16,13 @@
   ],
   "scripts": {
     "build": "bun run generate",
+    "build:site": "cosmos-export",
     "check": "bun run format:check && bun run typecheck && bun run validate && bun test",
+    "cosmos": "cosmos",
     "format": "biome format --write .",
     "format:check": "biome format .",
     "generate": "bun scripts/generate-dataset.ts && biome format --write circuits index.js index.d.ts manifest.json",
+    "generate:readme-image": "bun scripts/generate-readme-image.ts",
     "test": "bun test",
     "typecheck": "tsc --noEmit",
     "validate": "bun scripts/validate.ts"
@@ -36,6 +39,12 @@
     "@tscircuit/autorouting-dataset-01": "git+https://github.com/tscircuit/autorouting-dataset-01.git#52c45500b04d0380aa2a1be9b4c6f32d9b138553",
     "@tscircuit/capacity-autorouter": "0.0.764",
     "@types/bun": "latest",
-    "typescript": "^5.9.3"
+    "graphics-debug": "^0.0.95",
+    "react": "^19.2.4",
+    "react-cosmos": "^7.3.0",
+    "react-cosmos-plugin-vite": "^7.3.0",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5"
   }
 }

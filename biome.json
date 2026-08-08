@@ -5,6 +5,9 @@
     "indentStyle": "space",
     "indentWidth": 2
   },
+  "files": {
+    "includes": ["**", "!**/cosmos-export", "!**/docs"]
+  },
   "javascript": {
     "formatter": {
       "quoteStyle": "double",

@@ -1,2 +1,5 @@
 node_modules
+cosmos-export/
 .DS_Store
+.vercel
+.env*
